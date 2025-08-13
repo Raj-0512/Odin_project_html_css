@@ -1,1 +1,80 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="ass1.css">
+</head>
+<body>
+
+<div id="container">
+    <div id="left_side_container">
+        <div id="logo_container">
+            <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
+            <h1>ODIN</h1>
+        </div>
+        <p style="margin-top: 840px; text-align: center;">Photo by Halie West on Unsplash</p>
+    </div>
+
+    <div id="right_side_container">
+        <div id="text_container">
+            <h2>
+                This is not a real online service! You know you need something<br> like this in your life to help you realize
+                your deepest dreams.<br>Sign up <i>now</i> to get started.
+            </h2>
+
+            <h2>You <i>know</i> you want to.</h2>
+        </div>
+        <div id="credentials_container">
+            <h2 class="form_title">Let's do this!</h2>
+
+            <!-- Column 1 -->
+            <div class="col">
+                <div class="field">
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" id="first_name" minlength="3" maxlength="15">
+                </div>
+                <div class="field">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="field">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" required minlength="5" maxlength="15">
+                </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col">
+                <div class="field">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" id="last_name" minlength="3" maxlength="15">
+                </div>
+                <div class="field">
+                    <label for="phone_number">PHONE NUMBER</label>
+                    <input type="tel" id="phone_number" pattern="[0-9]{10}">
+                </div>
+                <div class="field">
+                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm_password" required minlength="5" maxlength="15">
+                </div>
+            </div>
+        </div>
+
+        <div id="below_text_container">
+        <div id="create_account_container">
+            <h2>Create Account</h2>
+        </div>
+         <br>
+
+        <h2>Already have an account? <a href="#">Log in</a></h2>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
